@@ -1577,6 +1577,7 @@ blockquote {
     text-align: center;
     text-decoration: none;
     color: #fff;
+    opacity: 0.8;
     -webkit-transition: margin-bottom 150ms linear;
     -moz-transition: margin-bottom 150ms linear;
     -o-transition: margin-bottom 150ms linear;
