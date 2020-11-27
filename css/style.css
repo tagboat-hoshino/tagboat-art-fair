@@ -1058,6 +1058,7 @@ blockquote {
     padding: 5px 10px;
     background: #6178c2;
     text-align: left;
+    z-index: 100;
 }
 
 /**
