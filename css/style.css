@@ -1001,6 +1001,7 @@ blockquote {
     padding: 10px;
     max-height: 360px;
     border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+    z-index: 0;
 }
 
 #gallery [class*='col-'] {
