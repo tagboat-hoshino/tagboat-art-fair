@@ -1000,8 +1000,19 @@ blockquote {
 #gallery img {
     padding: 10px;
     max-height: 360px;
-    border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
     z-index: 0;
+}
+
+#gallery a:nth-child(1) img {
+    border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+
+#gallery a:nth-child(2) img {
+    border-radius: 60% 50% 70% 50%/50% 50% 70% 60%;
+}
+
+#gallery a:nth-child(2) img {
+    border-radius: 60% 50% 70% 50%/50% 50% 70% 60%;
 }
 
 #gallery [class*='col-'] {
