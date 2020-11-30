@@ -98,8 +98,12 @@ svg {
     color:#fff;    
 }
 
-.section-heading i{
+#banner .section-heading i {
     color: #111;
+}
+
+.section-heading i{
+    color: #6178c2;
     text-shadow: 3px 3px 12px #fff;
 }
 
