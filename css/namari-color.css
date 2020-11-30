@@ -99,7 +99,8 @@ svg {
 }
 
 .section-heading i{
-    color: #6178c2;
+    color: #111;
+    text-shadow: 3px 3px 12px #fff;
 }
 
 .section-heading h2:after {

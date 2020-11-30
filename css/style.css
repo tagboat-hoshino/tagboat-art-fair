@@ -779,6 +779,11 @@ h6 {
     padding-bottom: 0;
 }
 
+
+.section-heading i {
+    padding: 20px;
+}
+
 /*------------------------------------------------------------------------------------------*/
 /* 4. Banner */
 /*------------------------------------------------------------------------------------------*/
@@ -789,21 +794,8 @@ h6 {
 
 #banner-content.row {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
-
-#banner h1 {
-    /*padding-top: 5%;*/
-}
-
-/*#banner .section-heading:before {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 5px;
-    margin-top: 30px;
-}*/
-
 
 
 /*------------------------------------------------------------------------------------------*/
