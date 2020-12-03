@@ -89,15 +89,14 @@ figure {
 }
 
 .page-border .bottom-border, .page-border .left-border, .page-border .right-border, .page-border .top-border {
-    background: #f3f3ef;
+    background: #4e7aca;
     position: fixed;
     z-index: 9999;
 }
 
 .page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
     padding: 11px;
-    /*background: #ccc;*/
-    background: #91a4e4;
+    background: #4e7aca;
 }
 
 .page-border .bottom-border, .page-border .top-border {
@@ -555,10 +554,9 @@ section {
     width: 38px;
     height: 71px;
     color: #111;
-    /*color: #ffd401e8;*/
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -952,13 +950,13 @@ blockquote {
     display: block;
 }
 
-.testimonial.classic footer:before {
+/*.testimonial.classic footer:before {
     display: block;
     content: "";
     width: 30px;
     height: 4px;
     margin: 10px auto 15px auto;
-}
+}*/
 
 /* Style Big */
 
@@ -971,6 +969,10 @@ blockquote {
 }
 
 /* Booth Map */
+#map img {
+    padding: 0 15px;
+}
+
 .boothmaplist {
     display: flex;
     justify-content: center;
